@@ -37,7 +37,7 @@ The form should have the following validations:
 
 Follow the design in the screenshots below. The email and phone fields should be placed between name fields and password fields.
 
-![Screenshot 2024-04-12 at 14.28.53.png](..%2F..%2F..%2FPictures%2Fscreenshots%2FScreenshot%202024-04-12%20at%2014.28.53.png)
-![Screenshot 2024-04-12 at 14.28.27.png](..%2F..%2F..%2FPictures%2Fscreenshots%2FScreenshot%202024-04-12%20at%2014.28.27.png)
+![Screenshot 2024-04-12 at 14.28.53.png](./docs/images/Screenshot%202024-04-12%20at%2014.28.53.png)
+![Screenshot 2024-04-12 at 14.28.27.png](./docs/images/Screenshot%202024-04-12%20at%2014.28.27.png)
 
 All necessary assets are provided in the `assets` folder. The MUI theme palette and typography should be used to match the design. 
