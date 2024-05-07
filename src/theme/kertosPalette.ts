@@ -26,5 +26,9 @@ export const kertosPalette = {
     "200": "#455172",
     "300": "#212B45",
     "400": "#131C32"
+  },
+  background: {
+    default: "#F8F9FD",
+    paper: "#ffffff"
   }
 };

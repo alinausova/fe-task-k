@@ -5,7 +5,8 @@ import Logo from "../assets/logo.svg?react";
 import Illustration from "../assets/illustration.svg?react";
 import SquaredBox from "./SquaredBox.tsx";
 
-export const AuthenticationContainer: React.FC<BoxProps> = ({children}) => {
+// Container for a form with a background illustration
+export const FormContainer: React.FC<BoxProps> = ({children}) => {
     const backgroundColor = kertosPalette.blue["300"];
     const textColor = kertosPalette.blue["100"];
 

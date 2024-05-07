@@ -13,8 +13,7 @@ interface SquaredBoxProps extends BoxProps {
   backgroundColor?: string;
 }
 
-// In order to get rectangular corners we need to use 2 extra views
-// https://stackoverflow.com/questions/62127340/notched-corner-rectangles-in-react-native
+// Renders a box with a squared border around it
 const SquaredBox: React.FC<SquaredBoxProps> = ({ size, backgroundColor, ...props }) => {
   return (
     <>

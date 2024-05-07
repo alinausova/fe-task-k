@@ -81,6 +81,21 @@ export function getComponentStyleOverrides(): ThemeOptions["components"] {
         }
       `
         },
+        MuiFilledInput: {
+            styleOverrides: {
+                underline: {
+                    "::before": {
+                        borderBottom: 0
+                    },
+                    "::after": {
+                        borderBottom: 0
+                    },
+                    "&:hover:not(.Mui-disabled):before": {
+                        borderBottom: 0
+                    }
+                }
+            }
+        },
     };
 }
 
@@ -167,8 +182,8 @@ const palette: ThemeOptions["palette"] = {
         secondary: "#8A9099"
     },
     background: {
-        default: "#F8F9FD",
-        paper: "#ffffff"
+        default: kertosPalette.background.default,
+        paper: kertosPalette.background.paper
     },
     divider: "#EBEDF3",
     success: {
