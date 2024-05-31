@@ -99,69 +99,6 @@ export function getComponentStyleOverrides(): ThemeOptions["components"] {
     };
 }
 
-declare module "@mui/material/styles/createPalette" {
-    interface CommonColors {
-        container: {
-            primary?: string;
-            background?: string;
-            accent?: string;
-        };
-        status: {
-            todo?: string;
-            inProgress?: string;
-            readyToSend?: string;
-            done?: string;
-            error?: string;
-            yellow?: string;
-            turquoise?: string;
-            other?: string;
-            overdue?: string;
-        };
-        requestTypes: {
-            access: string;
-            delete: string;
-            rectify: string;
-            other: string;
-            overdue: string;
-            unsubscription: string;
-            dueToday: string;
-            dueThisWeek: string;
-            toDo: string;
-            inProgress: string;
-            readyToSend: string;
-        };
-        securityControlCategories: {
-            organisational: string;
-            people: string;
-            physical: string;
-            technological: string;
-            custom: string;
-        };
-        accent: {
-            primary: string;
-        };
-        risk: {
-            unspecified: string;
-            low: string;
-            medium: string;
-            high: string;
-            veryHigh: string;
-        };
-        riskMatrix: {
-            low: string;
-            medium: string;
-            high: string;
-            critical: string;
-            text: string;
-            contrastText: string;
-        };
-        dashboardKpis: {
-            sideInfoBackground: string;
-            sideInfoText: string;
-        };
-    }
-}
-
 const palette: ThemeOptions["palette"] = {
     mode: "light",
     tonalOffset: 0.05,

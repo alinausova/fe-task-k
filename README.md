@@ -25,7 +25,6 @@ Using Material UI, Formik and Yup implement the sign up form with the following 
 
 The form should have the following validations:
 - First name, password, and confirm password are required fields
-- Email should be a valid email
 - Password should be at least 12 characters long
 - Password and confirm password should match
 - When a field is invalid, it should be highlighted red and the helper text should be shown
